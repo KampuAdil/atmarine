@@ -139,8 +139,6 @@ p {
 #newsletter1 h1 {
     text-align: center;
 }
-
-
 /* boxes*/
 
 #boxes {
@@ -248,6 +246,22 @@ h4 {
 table, th, td {
     border:1px solid black;
   }
+
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+ .column {
+    float: left;
+    /* width: 20%;
+    height: 20%; */
+    padding: 16px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
 
 footer {
     padding: 20px;
